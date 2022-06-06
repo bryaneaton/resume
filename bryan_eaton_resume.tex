@@ -6,7 +6,6 @@
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
-\usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
@@ -93,8 +92,18 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
+      {Shell Energy}{Maryville, TN (Remote)}
+      {Data Engineer}{Jul 2021 - Present}
+      \resumeItemListStart
+        \resumeItem{Airflow pipelines}
+          {Built and maintained pipelines from vendor SQL Server databases to Amazon S3 for user consumption with Dremio and other tools.}
+        \resumeItem{Data Migration}
+          {Wrote the migration code for an Intelometry Retail SQL Server database to an Exelergy RevenueManager data migration using Python, Pytest(Test-Driven Development), SQLAlchemy, Docker, and SQL Server stored procedures/functions.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
       {Oak Ridge National Laboratory}{Oak Ridge, TN}
-      {Data Engineer}{Oct 2018 - Present}
+      {Data Engineer}{Oct 2018 - Jul 2021}
       \resumeItemListStart
         \resumeItem{Data Collection}
           {Built and maintained pipelines for ingesting millions of JSON documents from multiple sources into an Elasticsearch cluster using Java's Spring Framework and Airflow}
@@ -158,3 +167,4 @@ front-end for the Houston-Galveston Subsidence District’s 70-year population a
 
 %-------------------------------------------
 \end{document}
+
