@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.6)  6 JUN 2022 10:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.6.6)  8 JUN 2022 09:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -322,19 +322,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./bryan_eaton_resume.
 aux)
-
-Package rerunfilecheck Warning: File `bryan_eaton_resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `bryan_eaton_resume.out':
-(rerunfilecheck)             Before: 6D2AFB534A00F4D34659D8571363BDAA;142
-(rerunfilecheck)             After:  5DAF73F8C17FD79B524F4FB9018BAB9E;317.
+Package rerunfilecheck Info: File `bryan_eaton_resume.out' has not changed.
+(rerunfilecheck)             Checksum: 5DAF73F8C17FD79B524F4FB9018BAB9E;317.
  ) 
 Here is how much of TeX's memory you used:
  10063 strings out of 478238
  157740 string characters out of 5850457
- 487244 words of memory out of 5000000
+ 487235 words of memory out of 5000000
  28194 multiletter control sequences out of 15000+600000
  475192 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -347,7 +341,7 @@ c/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/ty
 pe1/public/cm-super/sfrm1095.pfb>
-Output written on bryan_eaton_resume.pdf (2 pages, 109701 bytes).
+Output written on bryan_eaton_resume.pdf (2 pages, 109775 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
