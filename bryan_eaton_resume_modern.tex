@@ -1,0 +1,51 @@
+\documentclass[11pt,a4paper,sans]{moderncv} % moderncv package for a more modern look
+\moderncvstyle{banking} 
+\moderncvcolor{blue} 
+
+\usepackage[scale=0.75]{geometry}
+
+\name{Bryan}{Eaton}
+\phone[mobile]{+1-352-578-1242}
+\email{bryan.eaton77@gmail.com}
+\social[linkedin]{bryanmeaton}
+
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{Dec. 2002}{Bachelor of Science in Environmental Science}{Stephen F. Austin State University}{Nacogdoches, TX}{}{}
+
+\section{Experience}
+\cventry{Jul 2022 - Present}{Data Engineer}{RegScale, Inc.}{Knoxville, TN}{}{
+\begin{itemize}
+\item Principal Developer for the RegScale CLI. Led the design and development of core features for this data integration tool, which integrates with over 40 cybersecurity-related services and file-formats.
+\item Implemented REST API's and document generation services for OSCAL-compliant XML, FedRAMP, and other formats for the RegScale platform.
+\end{itemize}
+}
+\cventry{Jul 2021 - Jul 2022}{Data Engineer}{Shell Energy}{Remote}{}{
+\begin{itemize}
+\item Built and maintained pipelines from vendor SQL Server databases to Amazon S3 for user consumption with Dremio and other tools.
+\item Wrote the migration code for an Intelometry Retail system (SQL Server based) to an Exelergy RevenueManager data migration using Python, Pytest(Test-Driven Development), SQLAlchemy, Docker, and SQL Server stored procedures/functions.
+\end{itemize}
+}
+\cventry{Oct 2018 - Jul 2021}{Data Engineer}{Oak Ridge National Laboratory}{Remote}{}{
+\begin{itemize}
+\item Built and maintained pipelines for ingesting millions of JSON documents from multiple sources into an Elasticsearch cluster using Java's Spring Framework and Airflow.
+\item Apache ActiveMQ is an open source message broker primarily used for sending messages between applications. Worked on writing message clients for an application centered around JMS messaging.
+\end{itemize}
+}
+\cventry{Jan 2014 - Apr 2018}{SAP Developer}{Oak Ridge National Laboratory}{Remote}{}{
+\begin{itemize}
+\item Designed focused universes and interactive BI dashboards using SAP Information Design Tool and Design Studio.
+\item Used Airflow to extract data from Excel docs with the help of Python Pandas and to integrate this data with parallel Data Services jobs.
+\item Setup, schema design and management of Data Marts with SQL Server. SAP Data Services integration for daily ETL ingestion into SQL Server.
+\item Wrote Restful API’s using Python’s Flask framework detailing ETL job metrics.  Airflow eventually replaced this setup.
+\end{itemize}
+}
+% Add other experiences in the same way
+
+\section{Programming Skills}
+\cvitem{Languages}{Python, Java, Kotlin, GoLang, C$\sharp$, SQL}
+\cvitem{Technologies}{Linux, JMS, Flask, Airflow, Vagrant, Docker}
+
+\end{document}
