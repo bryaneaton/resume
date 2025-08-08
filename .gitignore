@@ -1,2 +1,91 @@
-# Archieve
-Archieve/
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.brf
+*.fls
+*.fdb_latexmk
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.figlist
+*.makefile
+*.fls
+*.fdb_latexmk
+
+# LaTeX intermediate files
+*.dvi
+*.xdv
+*.pdf
+*.ps
+
+# BibTeX files
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+# Index files
+*.idx
+*.ilg
+*.ind
+
+# Glossary files
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.ist
+
+# Nomenclature files
+*.nlo
+*.nls
+
+# Bibliography auxiliary files
+*.brf
+
+# Build directories
+/build/
+/output/
+
+# Editor and system files
+.DS_Store
+.vscode/
+*.swp
+*.swo
+*~
+.idea/
+*.sublime-*
+
+# Temporary files
+*.tmp
+*.temp
+*.backup
+*.bak
+
+# LaTeX Beamer specific
+*.nav
+*.snm
+*.vrb
+
+# LaTeX package files
+*.sty.backup
+*.cls.backup
+
+# Archives and compressed files (if you don't want to track them)
+*.zip
+*.tar.gz
+*.rar
+
+# Keep important files (uncomment if needed)
+# !important.pdf
+# !final_version.pdf
