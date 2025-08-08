@@ -23,7 +23,6 @@
 # LaTeX intermediate files
 *.dvi
 *.xdv
-*.pdf
 *.ps
 
 # BibTeX files
