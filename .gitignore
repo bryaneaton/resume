@@ -1,90 +1,63 @@
+# LaTeX Resume Project .gitignore
+
+# Exclude all reference files to protect personal contact information
+*references*
+*References*
+*REFERENCES*
+
 # LaTeX auxiliary files
 *.aux
 *.bbl
 *.bcf
 *.blg
-*.brf
-*.fls
 *.fdb_latexmk
-*.lof
+*.fls
 *.log
-*.lot
 *.out
-*.toc
-*.fmt
-*.fot
-*.cb
-*.cb2
-*.figlist
-*.makefile
-*.fls
-*.fdb_latexmk
-
-# LaTeX intermediate files
-*.dvi
-*.xdv
-*.ps
-
-# BibTeX files
-*.bbl
-*.bcf
-*.blg
 *.run.xml
-
-# Index files
-*.idx
-*.ilg
-*.ind
-
-# Glossary files
+*.synctex.gz
+*.toc
+*.lof
+*.lot
 *.acn
 *.acr
+*.alg
 *.glg
 *.glo
 *.gls
-*.glsdefs
 *.ist
-
-# Nomenclature files
-*.nlo
-*.nls
-
-# Bibliography auxiliary files
-*.brf
-
-# Build directories
-/build/
-/output/
-
-# Editor and system files
-.DS_Store
-.vscode/
-*.swp
-*.swo
-*~
-.idea/
-*.sublime-*
-
-# Temporary files
-*.tmp
-*.temp
-*.backup
-*.bak
-
-# LaTeX Beamer specific
+*.loa
 *.nav
 *.snm
 *.vrb
+*.dvi
 
-# LaTeX package files
-*.sty.backup
-*.cls.backup
+# Backup and temporary files
+*~
+*.backup
+*.bak
+*.swp
+*.tmp
 
-# Archives and compressed files (if you don't want to track them)
-*.zip
-*.tar.gz
-*.rar
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Keep important files (uncomment if needed)
-# !important.pdf
-# !final_version.pdf
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Package/build directories
+resume_package/
+build/
+dist/
+
+# Personal information files
+contact_info.txt
+personal_notes.txt
