@@ -75,7 +75,7 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{{\Large Bryan Eaton}} & Email: \href{mailto:bryan.eaton77@gmail.com}{bryan.eaton77@gmail.com}\\
-  \href{https://www.linkedin.com/in/bryanmeaton/}{\faLinkedin\ linkedin.com/in/bryanmeaton} & Mobile: +1--352--578--1242 \\
+  \href{https://www.linkedin.com/in/bryanmeaton/}{\faLinkedin\ linkedin.com/in/bryanmeaton} & Mobile: +1-352-578-1242 \\
   \href{https://github.com/bryaneaton}{\faGithub\ github.com/bryaneaton} & Maryville, TN \\
 \end{tabular*}
 
@@ -100,25 +100,33 @@
 \section{Experience}
   \resumeSubHeadingListStart
 
-\resumeSubheading
-	{RegScale, Inc.}{Knoxville, TN}
-	{Data Engineer}{Jul 2022--Aug 2025}
-	\resumeItemListStart
-	\resumeItem{Python Development}
-  {Transformed the RegScale CLI from a simple Python script hosted on a webserver into a professionally packaged PyPI distribution with CI/CD pipelines and automated releases. Led design and development of core features for this data integration tool, which integrates with over 40+ cybersecurity services and file formats.}
-  \resumeItem{Official Platform Integrations}
-	{Built the official RegScale integrations for Wiz and Tenable, enabling seamless data flow and compliance reporting.}
-  \resumeItem{C\# Development}
-	{Developed services to export RegScale System Security Plans (SSPs) to OSCAL XML format, ensuring prevalidation and full compliance with FedRAMP's OSCAL validation rules. Specialized in building robust document generation and validation solutions for secure, standards-compliant systems.}
+    \resumeSubheading
+      {RegScale, Inc.}{Knoxville, TN}
+      {Data Engineer}{Jul 2022--Aug 2025}
+      \resumeItemListStart
+      \resumeItem{Python Development}
+      {Transformed the RegScale CLI from a simple Python script hosted on a webserver into a professionally packaged PyPI distribution with CI/CD pipelines and automated releases. Led design and development of core features for this data integration tool, which integrates with over 40+ cybersecurity services and file formats.}
+      \resumeItem{Official Platform Integrations}
+      {Built the official RegScale integrations for Wiz and Tenable, enabling seamless data flow and compliance reporting.}
+      \resumeItem{Data Platform}
+      {Implemented modular and reusable DAGs to automate ETL workflows, integrating with diverse data sources such as SQL databases, APIs, and cloud storage (e.g., AWS S3, Azure Blob Storage).}
+      \resumeItem{C\# Development}
+      {Developed services to export RegScale System Security Plans (SSPs) to OSCAL XML format, ensuring prevalidation and full compliance with FedRAMP's OSCAL validation rules. Specialized in building robust document generation and validation solutions for secure, standards-compliant systems.}
 	\resumeItemListEnd
     \resumeSubheading
       {Shell Energy}{Maryville, TN (Remote)}
       {Data Engineer}{Jul 2021--Jul 2022}
       \resumeItemListStart
-        \resumeItem{Airflow pipelines}
-          {Developed and maintained data pipelines to transfer data from vendor SQL Server databases to Amazon S3 in Parquet format, enabling user access and consumption through Dremio and PySpark}
-        \resumeItem{Data Migration}
-          {Led the conversion of a legacy MS Access migration tool to a more maintainable Python solution for transferring data from an Intelometry Retail system to Exelergy RevenueManager, leveraging PySpark against Spark clusters to accelerate ETL transformations.}
+        \resumeItem{Enterprise Data Infrastructure}
+          {Built enterprise-scale data lakehouse infrastructure using Dremio, processing terabytes of structured data from OLTP systems for analytical workloads}
+        \resumeItem{ETL Pipeline Development}
+          {Developed PySpark-based ETL pipelines for high-performance data transformation and loading, optimizing query performance for business intelligence applications}
+        \resumeItem{Workflow Orchestration}
+          {Configured Apache Airflow as orchestration engine for automated job scheduling, ensuring reliable data pipeline execution and monitoring}
+        \resumeItem{Legacy System Modernization}
+          {Migrated legacy VBA-based ETL systems to Python, improving maintainability and enabling modern DevOps practices}
+        \resumeItem{Cross-functional Collaboration}
+          {Collaborated with cross-functional infrastructure, network, and application teams to ensure data quality, availability, and system reliability}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -168,13 +176,13 @@
       \textbf{Programming Languages}{: Python, Java, Kotlin, Go, C\#, SQL, JavaScript}
     }
     \item{
-      \textbf{Data Engineering \& ETL}{: Apache Airflow, Apache ActiveMQ, SQLAlchemy, Pandas, Data Services, ETL Pipelines}
+      \textbf{Data Engineering \& ETL}{: Apache Airflow, Apache ActiveMQ, Apache Kafka, RabbitMQ, Pandas, Celery, PySpark}
     }
     \item{
-      \textbf{Web Frameworks \& APIs}{: Flask, Spring Framework, REST API Development, JMS Messaging}
+      \textbf{Web Frameworks \& APIs}{: Flask, Django, Spring Framework, Entity Framework, JMS Messaging}
     }
     \item{
-      \textbf{Databases}{: PostgreSQL, SQL Server, Elasticsearch, PostGIS, Amazon S3}
+      \textbf{Databases}{: PostgreSQL, SQL Server, Elasticsearch, MongoDB, Redis, PostGIS}
     }
     \item{
       \textbf{Cloud \& DevOps}{: Amazon Web Services (AWS), Docker, Vagrant}

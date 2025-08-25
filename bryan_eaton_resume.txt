@@ -1,0 +1,125 @@
+  ------------------------------ --------------------------------
+  Bryan Eaton                      Email: bryan.eaton77@gmail.com
+   linkedin.com/in/bryanmeaton            Mobile: +1–352–578–1242
+   github.com/bryaneaton                            Maryville, TN
+  ------------------------------ --------------------------------
+
+Professional Summary
+
+Experienced Data Engineer with 10+ years specializing in large-scale data
+integration, ETL pipelines, and cybersecurity compliance platforms. Proven track
+record of transforming legacy systems into modern, scalable solutions with CI/CD
+automation. Expert in Python development with strong background in cloud
+infrastructure, regulatory compliance (OSCAL, FedRAMP), and building official
+integrations for enterprise security platforms.
+
+Education
+
+-   ---------------------------------------------- -----------------
+      Stephen F. Austin State University               Nacogdoches, TX
+      Bachelor of Science in Environmental Science           Dec. 2002
+      ---------------------------------------------- -----------------
+
+Experience
+
+-   ---------------- ------------------
+      RegScale, Inc.        Knoxville, TN
+      Data Engineer      Jul 2022–Present
+      ---------------- ------------------
+
+    -    Python Development: Transformed the RegScale CLI from a simple Python
+        script hosted on a webserver into a professionally packaged PyPI
+        distribution with CI/CD pipelines and automated releases. Led design and
+        development of core features for this data integration tool, which
+        integrates with over 40+ cybersecurity services and file formats.
+
+    -    Official Platform Integrations: Built the official RegScale
+        integrations for Wiz and Tenable, enabling seamless data flow and
+        compliance reporting.
+
+    -    C# Development: Implemented REST API’s and document generation services
+        for OSCAL-compliant XML, FedRAMP, and other formats for the RegScale
+        platform.
+
+-   --------------- ------------------------
+      Shell Energy      Maryville, TN (Remote)
+      Data Engineer          Jul 2021–Jul 2022
+      --------------- ------------------------
+
+    -    Airflow pipelines: Built and maintained pipelines from vendor SQL
+        Server databases to Amazon S3 for user consumption with Dremio and other
+        tools.
+
+    -    Data Migration: Wrote the migration code for an Intelometry Retail
+        system (SQL Server based) to an Exelergy RevenueManager data migration
+        using Python, Pytest (Test-Driven Development), SQLAlchemy, Docker, and
+        SQL Server stored procedures/functions.
+
+-   ------------------------------- -------------------
+      Oak Ridge National Laboratory         Oak Ridge, TN
+      Data Engineer                     Oct 2018–Jul 2021
+      ------------------------------- -------------------
+
+    -    Data Collection: Built and maintained pipelines for ingesting millions
+        of JSON documents from multiple sources into an Elasticsearch cluster
+        using Java’s Spring Framework and Airflow
+
+    -    ActiveMQ JMS: Apache ActiveMQ is an open source message broker
+        primarily used for sending messages between applications. Worked on
+        writing message clients for an application centered around JMS
+        messaging.
+
+    -    PostgreSQL: I utilized Postgres’s excellent JSONB features as well as
+        PostGIS for storing geographic features and message data from the JMS.
+
+-   -------------------- ---------------------
+      Covenant Transport         Chattanooga, TN
+      SAP Developer          Jan 2014–April 2018
+      -------------------- ---------------------
+
+    -    SAP Design Studio: Designed focused universes and interactive BI
+        dashboards using SAP Information Design Tool and Design Studio.
+
+    -    Apache Airflow: Used Airflow to extract data from Excel docs with the
+        help of Python Pandas and to integrate this data with parallel Data
+        Services jobs
+
+    -    Data Warehousing: Setup, schema design and management of Data Marts
+        with SQL Server. SAP Data Services integration for daily ETL ingestion
+        into SQL Server.
+
+    -    Python Flask: Wrote Restful API’s using Python’s Flask framework
+        detailing ETL job metrics. Airflow eventually replaced this setup.
+
+-   -------------------- ---------------------
+      Freese and Nichols          Fort Worth, TX
+      GIS Developer          Jan 2005–April 2013
+      -------------------- ---------------------
+
+    -    ESRI ArcGIS: Developed GIS applications and helper scripts to build
+        automated mapping routines for early route investigation work of our
+        civil and water resource engineers.
+
+    -    Python ArcPy and ArcObjects: Developed ArcGIS toolboxes, python
+        scripts, ArcObjects tools, and ESRI geoprocessing models for common GIS
+        and SDE workflows.
+
+Programming Skills
+
+-    Programming Languages: Python, Java, Kotlin, Go, C#, SQL, JavaScript
+
+-    Data Engineering & ETL: Apache Airflow, Apache ActiveMQ, SQLAlchemy,
+    Pandas, Data Services, ETL Pipelines
+
+-    Web Frameworks & APIs: Flask, Spring Framework, REST API Development, JMS
+    Messaging
+
+-    Databases: PostgreSQL, SQL Server, Elasticsearch, PostGIS, Amazon S3
+
+-    Cloud & DevOps: Amazon Web Services (AWS), Docker, Vagrant
+
+-    Security & Compliance: OSCAL, FedRAMP, NIST, Cybersecurity Integrations
+    (Tenable, Wiz), CLI Development
+
+-    GIS & Spatial Analysis: ESRI ArcGIS, ArcPy, ArcObjects, Spatial Databases,
+    Geoprocessing
