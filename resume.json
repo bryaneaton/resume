@@ -1,0 +1,184 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "basics": {
+    "name": "Bryan Eaton",
+    "email": "bryan.eaton77@gmail.com",
+    "phone": "+1-352-578-1242",
+    "location": {
+      "city": "Maryville",
+      "region": "TN",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/bryanmeaton/",
+        "username": "bryanmeaton"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/bryaneaton",
+        "username": "bryaneaton"
+      }
+    ],
+    "summary": "Seasoned Data Engineer with over a decade of expertise in Python development, large-scale data integration, and ETL pipeline design. Proficient in transforming legacy systems into scalable, high-performance solutions that drive enterprise analytics and cybersecurity platforms. Adept at creating robust integrations across diverse data sources, with deep knowledge of cloud infrastructure, regulatory compliance (OSCAL, FedRAMP), and optimizing cybersecurity workflows."
+  },
+  "work": [
+    {
+      "name": "RegScale, Inc.",
+      "location": "Knoxville, TN",
+      "position": "Data Engineer",
+      "startDate": "2022-07",
+      "highlights": [
+        "Python Development: Transformed the RegScale CLI from a simple Python script hosted on a webserver into a professionally packaged PyPI distribution with CI/CD pipelines and automated releases. Led design and development of core features for this data integration tool, which integrates with over 40+ cybersecurity services and file formats.",
+        "Official Platform Integrations: Built the official RegScale integrations for Wiz and Tenable, enabling seamless data flow and compliance reporting.",
+        "Data Platform: Implemented modular and reusable DAGs to automate ETL workflows, integrating with diverse data sources such as SQL databases, APIs, and cloud storage (e.g., AWS S3, Azure Blob Storage).",
+        "C\\# Development: Developed services to export RegScale System Security Plans (SSPs) to OSCAL XML format, ensuring prevalidation and full compliance with FedRAMP's OSCAL validation rules. Specialized in building robust document generation and validation solutions for secure, standards-compliant systems."
+      ],
+      "endDate": "2025-08"
+    },
+    {
+      "name": "Shell Energy",
+      "location": "Maryville, TN (Remote)",
+      "position": "Data Engineer",
+      "startDate": "2021-07",
+      "highlights": [
+        "Enterprise Data Infrastructure: Built enterprise-scale data lakehouse infrastructure using Dremio, processing terabytes of structured data from OLTP systems for analytical workloads",
+        "ETL Pipeline Development: Developed PySpark-based ETL pipelines for high-performance data transformation and loading, optimizing query performance for business intelligence applications",
+        "Workflow Orchestration: Configured Apache Airflow as orchestration engine for automated job scheduling, ensuring reliable data pipeline execution and monitoring",
+        "Legacy System Modernization: Migrated legacy VBA-based ETL systems to Python, improving maintainability and enabling modern DevOps practices",
+        "Cross-functional Collaboration: Collaborated with cross-functional infrastructure, network, and application teams to ensure data quality, availability, and system reliability"
+      ],
+      "endDate": "2022-07"
+    },
+    {
+      "name": "Oak Ridge National Laboratory",
+      "location": "Oak Ridge, TN",
+      "position": "Data Engineer",
+      "startDate": "2018-10",
+      "highlights": [
+        "Data Collection: Built and maintained pipelines for ingesting millions of JSON documents from multiple sources into an Elasticsearch cluster using Java's Spring Framework and Airflow",
+        "ActiveMQ JMS: Apache ActiveMQ is an open source message broker primarily used for sending messages between applications. Worked on writing message clients for an application centered around JMS messaging.",
+        "PostgreSQL: I utilized Postgres's excellent JSONB features as well as PostGIS for storing geographic features and message data from the JMS."
+      ],
+      "endDate": "2021-07"
+    },
+    {
+      "name": "Covenant Transport",
+      "location": "Chattanooga, TN",
+      "position": "SAP Developer",
+      "startDate": "2014-01",
+      "highlights": [
+        "SAP Design Studio: Designed focused universes and interactive BI dashboards using SAP Information Design Tool and Design Studio.",
+        "Apache Airflow: Used Airflow to extract data from Excel docs with the help of Python Pandas and to integrate this data with parallel Data Services jobs",
+        "Data Warehousing: Setup, schema design and management of Data Marts with SQL Server. SAP Data Services integration for daily ETL ingestion into SQL Server.",
+        "Python Flask: Wrote Restful API’s using Python’s Flask framework detailing ETL job metrics. Airflow eventually replaced this setup."
+      ],
+      "endDate": "2018-04"
+    },
+    {
+      "name": "Freese and Nichols",
+      "location": "Fort Worth, TX",
+      "position": "GIS Developer",
+      "startDate": "2005-01",
+      "highlights": [
+        "ESRI ArcGIS: Developed GIS applications and helper scripts to build automated mapping routines for early route investigation work of our civil and water resource engineers.",
+        "Python ArcPy and ArcObjects: Developed ArcGIS toolboxes, python scripts, ArcObjects tools, and ESRI geoprocessing models for common GIS and SDE workflows."
+      ],
+      "endDate": "2013-04"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Stephen F. Austin State University",
+      "location": "Nacogdoches, TX",
+      "studyType": "Bachelor of Science",
+      "area": "Environmental Science",
+      "endDate": "2002-12"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Python",
+        "Java",
+        "Kotlin",
+        "Go",
+        "C#",
+        "SQL",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Data Engineering  ETL",
+      "keywords": [
+        "Databricks",
+        "Apache Airflow",
+        "Apache ActiveMQ",
+        "Apache Kafka",
+        "RabbitMQ",
+        "Pandas",
+        "Celery",
+        "PySpark"
+      ]
+    },
+    {
+      "name": "Web Frameworks  APIs",
+      "keywords": [
+        "Flask",
+        "Django",
+        "Spring Framework",
+        "Entity Framework",
+        "JMS Messaging"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "PostgreSQL",
+        "SQL Server",
+        "Elasticsearch",
+        "MongoDB",
+        "Redis",
+        "PostGIS"
+      ]
+    },
+    {
+      "name": "Cloud  DevOps",
+      "keywords": [
+        "Azure",
+        "Google Cloud (GCP)",
+        "Amazon Web Services (AWS)",
+        "Docker",
+        "Kubernetes",
+        "Vagrant"
+      ]
+    },
+    {
+      "name": "Security  Compliance",
+      "keywords": [
+        "OSCAL",
+        "FedRAMP",
+        "NIST",
+        "Cybersecurity Integrations (Tenable",
+        "Wiz)",
+        "CLI Development"
+      ]
+    },
+    {
+      "name": "GIS  Spatial Analysis",
+      "keywords": [
+        "ESRI ArcGIS",
+        "ArcPy",
+        "ArcObjects",
+        "Spatial Databases",
+        "Geoprocessing"
+      ]
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "lastModified": "2025-09-04T15:24:27.890186"
+  }
+}
