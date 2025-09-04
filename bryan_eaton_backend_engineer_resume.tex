@@ -1,0 +1,130 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{array}
+
+% Define colors
+\definecolor{darkblue}{RGB}{0,100,200}
+\definecolor{lightgray}{RGB}{128,128,128}
+
+% Configure hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    urlcolor=darkblue,
+    citecolor=darkblue
+}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{darkblue}}{}{0pt}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{6pt}
+
+% Subsection formatting
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\titlespacing{\subsection}{0pt}{8pt}{4pt}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Custom list formatting
+\setlist[itemize]{leftmargin=15pt, itemsep=2pt, parsep=0pt, topsep=4pt}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE \textbf{Bryan Eaton}} \\[4pt]
+    {\large Backend Engineer} \\[8pt]
+    \href{mailto:bryan.eaton@example.com}{bryan.eaton@example.com} | 
+    \href{https://linkedin.com/in/bryaneaton}{linkedin.com/in/bryaneaton} | 
+    \href{https://github.com/bryaneaton}{github.com/bryaneaton} \\[2pt]
+    Knoxville, TN
+\end{center}
+
+\section{Professional Summary}
+Seasoned Backend Engineer with 10+ years of experience designing and implementing mission-critical systems at web scale. Proven expertise in building scalable architectures, optimizing platform performance, and developing robust data pipelines that serve millions of users. Strong background in cloud-native technologies, containerization, and database optimization with hands-on experience in Kubernetes, Docker, and modern DevOps practices. Active open-source contributor with demonstrated ability to deliver high-performance solutions in collaborative, cross-functional environments.
+
+\section{Technical Skills}
+\begin{tabular*}{\textwidth}{@{}p{3.5cm}@{\hspace{0.5cm}}p{12.5cm}@{}}
+\textbf{Languages \& Frameworks:} & Python, Java, C\#, Go, Spring Boot, RESTful APIs, GraphQL \\[3pt]
+\textbf{Infrastructure \& DevOps:} & Kubernetes, Docker, OpenShift, Airflow, CI/CD (GitHub Actions, GitLab), Terraform \\[3pt]
+\textbf{Databases \& Storage:} & PostgreSQL, SQL Server, MongoDB, ElasticSearch, Amazon S3, Redis, Database Optimization \\[3pt]
+\textbf{Message Queues \& Streaming:} & Apache Kafka, RabbitMQ, Celery, Real-time Data Processing \\[3pt]
+\textbf{Cloud \& Monitoring:} & AWS, Azure, Prometheus, Grafana, ELK Stack, Performance Monitoring \\[3pt]
+\textbf{Data Processing:} & Apache Spark, PySpark, ETL Pipelines, Data Lake Architecture, Parquet
+\end{tabular*}
+
+\section{Professional Experience}
+
+\noindent\textbf{Backend Engineer / Data Platform Engineer} \hfill \textit{July 2022 -- August 2025} \\
+\textbf{RegScale}, Knoxville, TN
+
+\begin{itemize}
+    \item Architected and deployed scalable backend systems supporting compliance automation platform serving enterprise clients with mission-critical security requirements
+    \item Engineered high-performance disk caching solution reducing API call overhead by 90\% and dramatically improving system responsiveness for massive data volumes
+    \item Built and maintained production-ready REST APIs and CLI tools (\href{https://pypi.org/project/regscale-cli/}{regscale-cli}) with 50K+ downloads, demonstrating open-source contribution and community impact
+    \item Implemented Celery-based distributed task queues for parallel execution of long-running jobs, enabling horizontal scaling and fault-tolerant processing
+    \item Designed containerized development environments using Docker and Docker Compose, reducing development cycle time and ensuring consistent deployment across environments
+    \item Developed robust data parsers handling diverse schemas from cybersecurity tools (Wiz, Tenable, Burp Suite) with comprehensive validation and error recovery
+    \item Created CI/CD pipelines for automated testing and deployment to PyPI, implementing DevOps best practices for continuous delivery
+    \item Optimized data serialization strategies using pickle and JSONL with compression (gzip/lz4) to minimize storage footprint and improve I/O performance
+\end{itemize}
+
+\vspace{8pt}
+\noindent\textbf{Backend Engineer / Data Platform Engineer} \hfill \textit{July 2021 -- July 2022} \\
+\textbf{Shell Energy}, Houston, TX
+
+\begin{itemize}
+    \item Built enterprise-scale data lakehouse infrastructure using Dremio, processing terabytes of structured data from OLTP systems for analytical workloads
+    \item Developed PySpark-based ETL pipelines for high-performance data transformation and loading, optimizing query performance for business intelligence applications
+    \item Configured Apache Airflow as orchestration engine for automated job scheduling, ensuring reliable data pipeline execution and monitoring
+    \item Migrated legacy VBA-based ETL systems to Python, improving maintainability and enabling modern DevOps practices
+    \item Designed database access layers using JDBC and optimized SQL stored procedures for enhanced query performance
+    \item Collaborated with cross-functional infrastructure, network, and application teams to ensure data quality, availability, and system reliability
+\end{itemize}
+
+\vspace{8pt}
+\noindent\textbf{Backend Systems Developer} \hfill \textit{Oct 2018 -- July 2021} \\
+\textbf{Oak Ridge National Laboratory}, Oak Ridge, TN
+
+\begin{itemize}
+    \item Designed and developed RESTful APIs using Spring Boot for mission-critical government applications with strict security requirements
+    \item Implemented secure RabbitMQ messaging integration within classified networks (SIPRNet), ensuring reliable inter-service communication
+    \item Configured Hazelcast distributed in-memory cache with intelligent eviction policies (LRU, LFU) for high-performance image data retrieval
+    \item Built scalable Celery task queues managing large-scale data processing jobs, including nationwide COVID-19 datasets during the pandemic
+    \item Developed complex PostGIS spatial queries for geospatial applications, optimizing database performance for location-based services
+    \item Integrated R-based statistical computing with Airflow using DockerOperator for consistent environment management and dependency isolation
+    \item Implemented comprehensive testing strategies using JUnit and monitored application performance with Spring Actuator
+\end{itemize}
+
+\vspace{8pt}
+\noindent\textbf{Backend Developer / Data Engineer} \hfill \textit{Jan 2014 -- Apr 2018} \\
+\textbf{Covenant Transport}, Chattanooga, TN
+
+\begin{itemize}
+    \item Optimized database performance through strategic indexing and stored procedure enhancement for high-volume OLTP systems
+    \item Designed and implemented data mart architecture using SQL Server for enterprise business intelligence solutions
+    \item Developed ETL workflows processing millions of transportation records, ensuring data integrity and optimal query performance
+    \item Created scalable data warehouse solutions with centralized fact tables and dimensional modeling for executive reporting
+    \item Analyzed and optimized query execution plans, achieving significant performance improvements in mission-critical applications
+\end{itemize}
+
+\section{Key Achievements}
+\begin{itemize}
+    \item \textbf{Open Source Impact:} Principal developer of RegScale CLI with 50K+ PyPI downloads, demonstrating community engagement and code quality
+    \item \textbf{Performance Optimization:} Achieved 90\% reduction in API response times through intelligent caching and data serialization strategies
+    \item \textbf{Scalable Architecture:} Built distributed systems capable of processing terabytes of data using modern streaming and batch processing frameworks
+    \item \textbf{DevOps Excellence:} Implemented comprehensive CI/CD pipelines reducing deployment time and ensuring reliable software delivery
+    \item \textbf{Cross-Platform Integration:} Successfully integrated diverse systems and APIs, enabling seamless data flow across enterprise environments
+\end{itemize}
+
+\section{Education}
+\noindent\textbf{Bachelor of Science in Computer Science} \hfill \textit{Graduated 2005} \\
+\textbf{University of Technology}
+
+\end{document}
