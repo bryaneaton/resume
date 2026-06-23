@@ -101,6 +101,22 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
+      {Medaxion}{Remote}
+      {Lead Data Engineer}{Nov 2025--Present}
+      \resumeItemListStart
+        \resumeItem{Healthcare Data Lake}
+          {Lead engineer on the company's ELT monorepo powering a SingleStore data lake across 9 production and UAT databases, supporting healthcare analytics and CMS quality-measure reporting.}
+        \resumeItem{CDC Pipeline Engineering}
+          {Built and operated CDC ingestion pipelines using Kafka and Debezium, including automated pipeline generation, freshness and stopped-pipeline monitoring, and MySQL to SingleStore DDL conversion with sqlglot.}
+        \resumeItem{Aggregation and Backfill Processing}
+          {Engineered scheduled SQL aggregation framework with 80+ aggregation functions across 9 environment configs, deployed as AWS Lambda via the Serverless Framework, plus containerized batch workers using Docker, ECR, and AWS Batch for historical backfills.}
+        \resumeItem{Schema Migration and Production Support}
+          {Owned schema migration discipline with Liquibase formatted-SQL changelogs; authored stored procedures, views, and triggers in SingleStore procedural SQL; resolved production incidents involving lock-wait timeouts, definer privileges, and value-count errors.}
+        \resumeItem{Observability and Engineering Rigor}
+          {Delivered CloudWatch alerting across production Lambdas, Slack failure notifications for batch jobs, CI/CD with selective Lambda and database deploys, PR-gated dev database migrations, pre-commit hooks, secret scanning, pytest tests, and ruff, black, and mypy enforcement.}
+      \resumeItemListEnd
+
+    \resumeSubheading
       {RegScale, Inc.}{Knoxville, TN}
       {Data Engineer}{Jul 2022--Aug 2025}
       \resumeItemListStart
@@ -176,7 +192,7 @@
       \textbf{Programming Languages}{: Python, Java, Kotlin, Go, C\#, SQL, JavaScript}
     }
     \item{
-      \textbf{Data Engineering \& ETL}{: Databricks, Apache Airflow, Apache ActiveMQ, Apache Kafka, RabbitMQ, Pandas, Celery, PySpark}
+      \textbf{Data Engineering \& ETL}{: SingleStore, Apache Airflow, Apache Kafka, Debezium, Liquibase, SQLAlchemy, Pandas, Celery, PySpark}
     }
     \item{
       \textbf{Web Frameworks \& APIs}{: Flask, Django, Spring Framework, Entity Framework, JMS Messaging}
@@ -185,7 +201,7 @@
       \textbf{Databases}{: PostgreSQL, SQL Server, Elasticsearch, MongoDB, Redis, PostGIS}
     }
     \item{
-        \textbf{Cloud \& DevOps}{: Azure, Google Cloud (GCP), Amazon Web Services (AWS), Docker, Kubernetes, Vagrant}
+        \textbf{Cloud \& DevOps}{: AWS Lambda, AWS Batch, ECR, CloudWatch, Serverless Framework, Docker, Terraform, GitHub Actions, CodeBuild}
     }
     \item{
       \textbf{Security \& Compliance}{: OSCAL, FedRAMP, NIST, Cybersecurity Integrations (Tenable, Wiz), CLI Development}

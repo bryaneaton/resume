@@ -21,6 +21,26 @@ Experienced Data Engineer with 10+ years specializing in large-scale data integr
 
 # Experience
 
+- |                    |                |
+  |:-------------------|---------------:|
+  | **Medaxion**       |         Remote |
+  | *Lead Data Engineer* | *Nov 2025-Present* |
+
+  - 
+    **Healthcare Data Lake**: Lead engineer on the company's ELT monorepo powering a SingleStore data lake across 9 production and UAT databases, supporting healthcare analytics and CMS quality-measure reporting.
+
+  - 
+    **CDC Pipeline Engineering**: Built and operated CDC ingestion pipelines using Kafka and Debezium, including automated pipeline generation, freshness and stopped-pipeline monitoring, and MySQL to SingleStore DDL conversion with sqlglot.
+
+  - 
+    **Aggregation and Backfill Processing**: Engineered scheduled SQL aggregation framework with 80+ aggregation functions across 9 environment configs, deployed as AWS Lambda via the Serverless Framework, plus containerized batch workers using Docker, ECR, and AWS Batch for historical backfills.
+
+  - 
+    **Schema Migration and Production Support**: Owned schema migration discipline with Liquibase formatted-SQL changelogs; authored stored procedures, views, and triggers in SingleStore procedural SQL; resolved production incidents involving lock-wait timeouts, definer privileges, and value-count errors.
+
+  - 
+    **Observability and Engineering Rigor**: Delivered CloudWatch alerting across production Lambdas, Slack failure notifications for batch jobs, CI/CD with selective Lambda and database deploys, PR-gated dev database migrations, pre-commit hooks, secret scanning, pytest tests, and ruff, black, and mypy enforcement.
+
 - |                    |                    |
   |:-------------------|-------------------:|
   | **RegScale, Inc.** |      Knoxville, TN |
@@ -94,7 +114,7 @@ Experienced Data Engineer with 10+ years specializing in large-scale data integr
   **Programming Languages**: Python, Java, Kotlin, Go, C#, SQL, JavaScript
 
 - 
-  **Data Engineering & ETL**: Apache Airflow, Apache ActiveMQ, SQLAlchemy, Pandas, Data Services, ETL Pipelines
+  **Data Engineering & ETL**: SingleStore, Apache Airflow, Apache Kafka, Debezium, Liquibase, SQLAlchemy, Pandas, Celery, PySpark
 
 - 
   **Web Frameworks & APIs**: Flask, Spring Framework, REST API Development, JMS Messaging
@@ -103,7 +123,7 @@ Experienced Data Engineer with 10+ years specializing in large-scale data integr
   **Databases**: PostgreSQL, SQL Server, Elasticsearch, PostGIS, Amazon S3
 
 - 
-  **Cloud & DevOps**: Amazon Web Services (AWS), Docker, Vagrant
+  **Cloud & DevOps**: AWS Lambda, AWS Batch, ECR, CloudWatch, Serverless Framework, Docker, Terraform, GitHub Actions, CodeBuild
 
 - 
   **Security & Compliance**: OSCAL, FedRAMP, NIST, Cybersecurity Integrations (Tenable, Wiz), CLI Development
